@@ -64,7 +64,7 @@
   "gitHooks": {
     "pre-commit": "lint-staged"
   },
-  "lint-staged": {
+  "old-lint-staged": {
     "*.js": [
       "vue-cli-service lint",
       "git add"
