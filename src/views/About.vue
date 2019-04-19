@@ -13,7 +13,9 @@
     <section>
       <h3>GitHub Projects</h3>
       <ul>
-        <li v-for="project in projects">Project {{ project }}</li>
+        <li v-for="project in projects" :key="project.id">
+          {{ project.name }}
+        </li>
       </ul>
     </section>
   </main>
