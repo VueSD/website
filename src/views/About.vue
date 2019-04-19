@@ -17,11 +17,7 @@
 
     <section>
       <h3>GitHub Projects</h3>
-      <ul>
-        <li v-for="project in projects" :key="project.id">
-          {{ project.name }}
-        </li>
-      </ul>
+      <GitHubProjects />
     </section>
   </main>
 </template>
@@ -31,11 +27,14 @@ import VsdMarkdown from "@/components/helpers/Markdown";
 import markdown from "@/markdown/about.md";
 import API from "@/api";
 
+import GitHubProjects from "@/components/GitHubProjects";
+
 export default {
   name: "about",
 
   components: {
-    VsdMarkdown
+    VsdMarkdown,
+    GitHubProjects
   },
 
   data: () => ({
