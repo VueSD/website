@@ -12,6 +12,9 @@
 
     <section>
       <h3>GitHub Projects</h3>
+      <ul>
+        <li v-for="project in projects">Project {{ project }}</li>
+      </ul>
     </section>
   </main>
 </template>
@@ -30,11 +33,11 @@ export default {
 
   data: () => ({
     markdown,
-    example: "Vue is cool"
+    projects: []
   }),
 
   async mounted() {
-    const projects = await API.githubProjects("VueSD");
+    this.projects = await API.githubProjects("VueSD");
   }
 };
 </script>
