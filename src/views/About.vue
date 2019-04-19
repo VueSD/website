@@ -29,7 +29,8 @@ export default {
   },
 
   data: () => ({
-    markdown
+    markdown,
+    example: "Vue is cool"
   }),
 
   async mounted() {
