@@ -15,3 +15,4 @@ To support our organization with tax-deductible donations, please visit [patreon
 - [Reveal Biosciences](https://www.revealbio.com/)
 - [Lettuce Box](https://lettucebox.com/)
 - [Sightly](https://www.sightly.com/)
+- [Intrepid Studios](https://intrepidstudios.com/)
