@@ -16,3 +16,4 @@ To support our organization with tax-deductible donations, please visit [patreon
 - [Lettuce Box](https://lettucebox.com/)
 - [Sightly](https://www.sightly.com/)
 - [Intrepid Studios](https://intrepidstudios.com/)
+- [Sendlane](https://www.sendlane.com/)
