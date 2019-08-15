@@ -17,3 +17,4 @@ To support our organization with tax-deductible donations, please visit [patreon
 - [Sightly](https://www.sightly.com/)
 - [Intrepid Studios](https://intrepidstudios.com/)
 - [Sendlane](https://www.sendlane.com/)
+- [Kicksta](https://kicksta.co/)
