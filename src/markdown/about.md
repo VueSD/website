@@ -18,3 +18,4 @@ To support our organization with tax-deductible donations, please visit [patreon
 - [Intrepid Studios](https://intrepidstudios.com/)
 - [Sendlane](https://www.sendlane.com/)
 - [Kicksta](https://kicksta.co/)
+- [Daybreak Games](https://www.daybreakgames.com/home/)
