@@ -20,3 +20,4 @@ To support our organization with tax-deductible donations, please visit [patreon
 - [Kicksta](https://kicksta.co/)
 - [Daybreak Games](https://www.daybreakgames.com/home/)
 - [Imageware Systems](https://www.iwsinc.com/)
+- [ThermoFisher Scientific](https://www.thermofisher.com/us/en/home.html)
