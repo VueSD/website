@@ -1,5 +1,5 @@
 <template>
-  <div class="vsd-markdown" v-html="markdown"></div>
+  <component :is="tag" class="vsd-markdown" v-html="markdown" />
 </template>
 
 <script>
@@ -7,7 +7,12 @@ export default {
   name: "vsd-markdown",
   props: {
     markdown: {
-      type: String
+      type: String,
+      required: true
+    },
+    tag: {
+      type: String,
+      default: "div"
     }
   }
 };

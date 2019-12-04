@@ -9,7 +9,7 @@
 </template>
 
 <script>
-import VsdMarkdown from "@/components/helpers/Markdown";
+import VsdMarkdown from "@/components/globals/Markdown";
 import markdown from "@/markdown/resources.md";
 
 export default {
