@@ -14,9 +14,10 @@ const meetupHost = "http://api.meetup.com";
 
 export default {
   githubProjects(username) {
-    return fetch(`${githubHost}/users/${username}/repos`, githubConfig).then(
-      res => res.json()
-    );
+    return fetch(
+      `${githubHost}/users/${username}/repos`,
+      githubConfig
+    ).then(res => res.json());
   },
 
   githubProjectDetails({ username, project }) {

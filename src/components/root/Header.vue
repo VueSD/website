@@ -2,7 +2,7 @@
   <nav class="vsd-header navbar navbar-expand-lg navbar-light py-3">
     <div class="container">
       <router-link to="/" class="navbar-brand">
-        <img src="static/logo.png" alt="Vue San Diego">
+        <img src="static/logo.png" alt="Vue San Diego" />
       </router-link>
       <button
         v-on:click="isVisible = !isVisible"
@@ -16,17 +16,21 @@
       >
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div 
+      <div
         v-bind:class="{ show: isVisible }"
-        class="collapse navbar-collapse" 
+        class="collapse navbar-collapse"
         id="navbarResponsive"
       >
         <ul class="navbar-nav ml-auto my-2 my-lg-0">
           <li class="nav-item">
-            <router-link :to="{ name: 'resources' }" class="nav-link">Resources</router-link>
+            <router-link :to="{ name: 'resources' }" class="nav-link">
+              Resources
+            </router-link>
           </li>
           <li class="nav-item">
-            <router-link :to="{ name: 'about' }" class="nav-link">About</router-link>
+            <router-link :to="{ name: 'about' }" class="nav-link">
+              About
+            </router-link>
           </li>
         </ul>
       </div>
@@ -43,8 +47,8 @@ export default {
     }
   },
   data: () => ({
-      isVisible: false
-    })
+    isVisible: false
+  })
 };
 </script>
 
