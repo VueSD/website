@@ -1,0 +1,12 @@
+backend:
+  name: github
+  repo: vuesd/website # Path to your GitHub repository
+
+media_folder: "public/static/uploads" # Media files will be stored in the repo under public/static/uploads
+public_folder: "/static/uploads" # The src attribute for uploaded media will begin with /static/uploads
+collections:
+  - label: "Resource" # Used in the UI
+    name: "resource" # Used in routes, e.g., /admin/collections/resource
+    folder: "src/content/resources" # The path to the folder where the documents are stored
+    fields: # The fields for each document, usually in front matter
+      - { label: "Title", name: "title", widget: "string" }
