@@ -1,6 +1,7 @@
 backend:
   name: github
   repo: vuesd/website # Path to your GitHub repository
+  branch: cms
 
 media_folder: "public/static/uploads" # Media files will be stored in the repo under public/static/uploads
 public_folder: "/static/uploads" # The src attribute for uploaded media will begin with /static/uploads
