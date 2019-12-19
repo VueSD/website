@@ -10,7 +10,7 @@
 
 <script>
 import VsdMarkdown from "@/components/globals/Markdown";
-import markdown from "@/markdown/resources.md";
+import markdown from "@/content/resources.md";
 
 export default {
   name: "resources",

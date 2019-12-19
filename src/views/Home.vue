@@ -15,7 +15,7 @@
 
 <script>
 import VsdMarkdown from "@/components/globals/Markdown";
-import markdown from "@/markdown/about.md";
+import markdown from "@/content/about.md";
 
 export default {
   components: {
