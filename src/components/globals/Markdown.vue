@@ -1,8 +1,10 @@
 <template>
-  <component :is="tag" class="vsd-markdown" v-html="markdown" />
+  <component :is="tag" class="vsd-markdown" v-html="html" />
 </template>
 
 <script>
+import marked from "marked";
+
 export default {
   name: "vsd-markdown",
   props: {
@@ -13,6 +15,12 @@ export default {
     tag: {
       type: String,
       default: "div"
+    }
+  },
+
+  computed: {
+    html() {
+      return marked(this.markdown);
     }
   }
 };
