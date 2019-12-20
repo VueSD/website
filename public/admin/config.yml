@@ -15,3 +15,11 @@ collections:
           - label: Content
             name: content
             widget: markdown
+  - label: Companies
+    name: companies
+    folder: "src/content/companies"
+    create: true
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Website", name: "url", widget: "string" }
+      - { label: "Logo", name: "logo", widget: "image" }
