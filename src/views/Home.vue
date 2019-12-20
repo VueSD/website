@@ -23,7 +23,7 @@ export default {
   },
 
   data: () => ({
-    markdown
+    markdown: markdown.content
   })
 };
 </script>

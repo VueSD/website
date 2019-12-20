@@ -18,7 +18,7 @@ export default {
     VsdMarkdown
   },
   data: () => ({
-    markdown
+    markdown: markdown.content
   })
 };
 </script>
