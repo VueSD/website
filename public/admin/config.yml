@@ -22,4 +22,4 @@ collections:
     fields:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Website", name: "url", widget: "string" }
-      - { label: "Logo", name: "logo", widget: "image" }
+      - { label: "Logo", name: "logo", widget: "image", required: false }

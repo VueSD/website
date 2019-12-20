@@ -18,7 +18,8 @@
           :href="company.url"
           class="col-sm-6 col-md-4"
         >
-          <img :src="company.logo" :alt="company.title" />
+          <img v-if="company.logo" :src="company.logo" :alt="company.title" />
+          <h3 v-else>{{ company.title }}</h3>
         </a>
       </div>
     </section>
