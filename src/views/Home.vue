@@ -11,15 +11,20 @@
       <VsdMarkdown :markdown="markdown" />
 
       <h2 class="mt-5 text-center">Companies in San Diego using Vue.js</h2>
-      <div class="row">
+      <div class="row vertical-align">
         <a
           v-for="(company, index) in companies"
           :key="index"
           :href="company.url"
           class="col-sm-6 col-md-4"
         >
-          <img v-if="company.logo" :src="company.logo" :alt="company.title" />
-          <h3 v-else>{{ company.title }}</h3>
+          <img
+            v-if="company.logo"
+            :src="company.logo"
+            :alt="company.title"
+            class="my-4 md-logo"
+          />
+          <h3 v-else class="align-middle">{{ company.title }}</h3>
         </a>
       </div>
     </section>

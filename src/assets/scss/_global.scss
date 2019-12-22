@@ -44,3 +44,21 @@ hr.light {
 .page-section {
   padding: 8rem 0;
 }
+
+.vertical-align {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.sm-logo {
+  max-height: 32px;
+}
+
+.md-logo {
+  max-height: 64px;
+}
+
+.lg-logo {
+  max-height: 128px;
+}
