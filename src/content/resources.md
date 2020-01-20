@@ -16,6 +16,8 @@ content: >-
 
   * [Vue School](https://vueschool.io/)
 
+  * [Vue Screencasts](https://www.vuescreencasts.com/)
+
 
   ## Code Editor
 
@@ -48,3 +50,4 @@ content: >-
   * [Vuejs Developer Facebook
   Group](https://www.facebook.com/groups/vuejsdevelopers/)
 ---
+
