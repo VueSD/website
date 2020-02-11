@@ -18,6 +18,9 @@ content: >-
 
   * [Vue Screencasts](https://www.vuescreencasts.com/)
 
+  * [Open
+  Classrooms](https://openclassrooms.com/en/courses/5664336-create-a-web-application-with-vue-js)
+
 
   ## Code Editor
 
