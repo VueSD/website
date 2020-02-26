@@ -21,6 +21,8 @@ content: >-
   * [Open
   Classrooms](https://openclassrooms.com/en/courses/5664336-create-a-web-application-with-vue-js)
 
+  * [CSS Tricks](https://css-tricks.com/guides/vue/)
+
 
   ## Code Editor
 
